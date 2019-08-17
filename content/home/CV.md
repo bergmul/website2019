@@ -12,70 +12,71 @@ subtitle = "Curriculum Vitae"
 weight = 2
 
 # CV location
-cv_pdf = "./files/Tanedo.pdf"
+cv_pdf = "./files/CV_Zuend.pdf"
 
 # Group Logo
-group_logo = "logo/UCRHEP_03.png"
+group_logo = ""
 
 
 # List your academic interests.
 [interests]
   interests = [
-    "Dark Matter",
-    "Composite Higgs",
-    "Extra Dimensions/SUSY",
-    "Astro/cosmo-particle"
+    "Honesty, Corruption",
+    "Field Experiments",
+    "Behavioral Genetics",
+    "Data, Data, Data!"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Physics"
-  course_short = "PhD"
-  institution = "Cornell University"
-  institution_short = "Cornell"
-  year = 2013
-  logo = "/logo/icon_Co.png"
+  course = "PhD in Economics"
+  course_short = "PhD Economics"
+  institution = "University of Zurich"
+  institution_short = "Zurich"
+  logo = "/logo/icon_uzh.png"
 
 [[education.courses]]
-  course = "MSc in Physics"
-  course_short = "MSc"
-  institution = "Durham University / IPPP"
-  institution_short = "Durham/IPPP"
-  year = 2008
-  logo = "/logo/icon_D.png"
+  course = "Visiting PhD Student"
+  course_short = "Visiting PhD Student"
+  institution = "University of Oxford"
+  institution_short = "Oxford"
+  year = 2018
+  logo = "/logo/icon_oxf.png"
 
 [[education.courses]]
-  course = "MASt in Mathematics"
-  course_short = "MASt"
+  course = "MPhil in Econ. Research"
+  course_short = "MPhil Econ. Research"
   institution = "Cambridge University"
   institution_short = "Cambridge"
-  year = 2007
-  logo = "/logo/icon_Ca.png"
+  year = 2014
+  logo = "/logo/icon_cam.png"
 
 [[education.courses]]
-  course = "BS in Physics & Mathematics"
-  course_short = "BS"
-  institution = "Stanford University"
-  institution_short = "Stanford"
-  year = 2008
-  logo = "/logo/icon_S.png"
+  course = "BA in Economics"
+  course_short = "BA Economics"
+  institution = "University of Zurich"
+  institution_short = "Zurich"
+  year = 2013
+  logo = "/logo/icon_uzh.png"
 
 
-# List your academic interests.
-[service]
-  service = [
-    "Open House Committee (chair)",
-    "Website Committee (chair)",
-    "Graduate Diversity Committee",
-    "[Graduate Student Mentor](https://gradmentors.ucr.edu)",
-    "[Reviewer](https://publons.com/author/637273/)"
+# List your other training courses.
+[training]
+  training = [
+    "RSF Summer Institute in Behavioral Economics (2018)",
+    "SINTEF Winter School in Practical Artificial Intelligence (2018)",
+    "RSF Summer Institute in Social Science Genomics (2017)",
+    "ETH-Zurich courses in Bioinformatics, Functional Genomics, and Cancer Genetics (2016-18)"
+  ]
+
+# List your other training courses.
+[scholarships]
+  scholarships = [
+  "Dissertation Fellowship, University of Zurich (2019)",
+  "SNF Doc.Mobility Fellowship, Swiss National Science Fund (2018)",
+  "Excellence Scholarship, Excellence Foundation EFZH (2014)",
+  "Cambridge Trust Scholarship, Cambridge Trust, (declined, 2014)"
   ]
 
 +++
 
-**Flip Tanedo** is an assistant professor of theoretical physics at the University of California, Riverside. His research focuses on the particle physics of dark matter and related open questions in our understanding of nature.
-
-> UCI Chancellor's Advance Postdoctoral Fellow, 2014 - 2015  
-> Paul & Daisy Soros Fellowship, 2010 - 2012  
-> NSF Graduate Research Fellow, 2006 - 2011  
-> Marshall Scholarship, 2006 - 2008
