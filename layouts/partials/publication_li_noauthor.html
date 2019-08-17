@@ -1,0 +1,5 @@
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt"></i>
+  <a href="{{ .Permalink }}" itemprop="name">{{ with .Params.publication }}{{- . | markdownify -}}{{ end }} ({{- .Date.Format "2006" -}}) {{ .Title }}.</a>
+  {{ partial "publication_links" (dict "content" . "is_list" 1) }}
+</div>
