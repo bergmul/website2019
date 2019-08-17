@@ -3,7 +3,7 @@
 # An example of using the custom widget to create your own homepage section.
 # To create more sections, duplicate this file and edit the values below as desired.
 widget = "custom"
-active = true
+active = false
 date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
@@ -15,4 +15,4 @@ weight = 60
 
 +++
 
-To be filled in soon. I am teaching Physics 231 and Physics 165 in the 2018 - 2019 academic year.
+
