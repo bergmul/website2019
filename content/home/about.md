@@ -10,31 +10,42 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Honesty, Corruption",
+    "Field Experiments",
+    "Behavioral Genetics",
+    "Data, Data, Data!"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Economics"
+  course_short = "PhD Economics"
+  institution = "University of Zurich"
+  institution_short = "Zurich"
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "Visiting PhD Student"
+  course_short = "Visiting PhD Student"
+  institution = "University of Oxford"
+  institution_short = "Oxford"
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "MPhil in Econ. Research"
+  course_short = "MPhil Econ. Research"
+  institution = "Cambridge University"
+  institution_short = "Cambridge"
+
+[[education.courses]]
+  course = "BA in Economics"
+  course_short = "BA Economics"
+  institution = "University of Zurich"
+  institution_short = "Zurich"
+
 
 +++
 
 # <span class="style-widget-title">Bio</span>
 
-Flip Tanedo spends a lot of time thinking about dark matter.
+**Christian Zünd wants to know why we behave the way we do.**
 
-He grew up in Los Angeles and fell in love with physics after reading *The Physics of Star Trek*. This carried into degrees in mathematics and physics at Stanford, Cambridge, Durham, and a Ph.D at Cornell. After a postdoc at UC Irvine, he is currently faculty at UC Riverside where he is known for being covered in chalk dust after a long day's work.
+I'm a PhD candidate in Economics at the University of Zurich. [My research](#projects) combines field and online experiments with data from large administrative databases and genetic repositories. My work has been [published](#featured) in Science and Nature Genetics and has recently received quite a bit of [media attention](/publication/cohn-2019).
