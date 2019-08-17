@@ -1,0 +1,6 @@
+{{/* Get Publication Types */}}
+{{ $pub_types := slice }}
+{{ range $.Site.Params.publication_types }}
+  {{ $pub_types = $pub_types | append . }}
+{{ end }}
+{{ return $pub_types }}
