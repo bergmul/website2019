@@ -1,7 +1,7 @@
-baseurl = "https://fliptanedo.netlify.com/"
-title = "Flip Tanedo"
-copyright = "&copy; 2018 Philip (Flip) Tanedo"
-theme = "academic"
+#baseurl = ""
+title = "Christian Zünd"
+copyright = "&copy; 2019 Christian Zünd"
+# theme = "academic"
 
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -25,24 +25,23 @@ enableGitInfo = false
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [params]
-  color_theme = "fliptheme"
+  color_theme = "zuendtheme"
   font = "flipfont"
 
   # Your details.
-  name = "Flip Tanedo"
-  role = "Assistant Professor"
-  organizations = [ { name = "UCR Particle Theory", url = "http://theory.ucr.edu" } ]
+  name = "Christian Zünd"
+  role = "PhD Candidate"
+  organizations = [ { name = "University of Zurich", url = "http://www.econ.uzh.ch" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "profile/Flip600_sq.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "profile/zuend_uzh1.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   # email = "flip@example.org"
-  email1 = "flip.tanedo" # using cryptedmail
-  email2 = "ucr" # using cryptedmail
-  email3 = "edu" # using cryptedmail
-  address = "3054 Physics Building, University of California, Riverside, CA 92521, USA"
-  office_hours = "Email for appointment"
-  phone = "x26168"
-  # skype = "echo123"
+  email1 = "christian.zuend" # using cryptedmail
+  email2 = "me" # using cryptedmail
+  email3 = "com" # using cryptedmail
+  address = "University of Zurich \n Blümlisalpstrass 10 \n 8006 Zurich \n Switzerland"
+  phone = "+41 (0) 79 915 62 23"
+  skype = "clzuend"
   # telegram = ""
 
   # Diplay a logo in navigation bar rather than title (optional).
@@ -74,17 +73,34 @@ enableGitInfo = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ['flip2019layout.css', 'cryptedmail.css', 'flip2018.css', 'flipaboutme.css', 'flipnav.css', 'slick.css', 'slick-theme.css', 'flipslick.css']
-  custom_js  = ['jquery-2.2.0.min.js', 'slick.js', 'flipslick.js']
+  custom_css = ['czuendlayout.css', 'cryptedmail.css', 'flip2018.css', 'flipaboutme.css', 'flipnav.css', 'slick.css', 'slick-theme.css', 'flipslick.css', 'ml-font.css']
+  custom_js  = ['academic.js','jquery-2.2.0.min.js', 'slick.js', 'flipslick.js', 'clean.altmetric.js']
+
+  # Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
+  #   translated.
+  publication_types = [
+    'Uncategorized',  # 0
+    'Conference paper',  # 1
+    'Journal article',  # 2
+    'Manuscript',  # 3
+    'Report',  # 4
+    'Book',  # 5
+    'Book section',  # 6
+    'Job Market Paper',  # 7
+  ]
 
   # FOOTER PARAMETERS
-  footmark = "layout/feynmanfooter.png"
-  stacklogo = "logo/UCR_PhysicsAndAstro_Logo_fordarkBG3.png"
-  legalblurb = "All opinions expressed here are my own and do not necessarily represent those of any other agencies or groups."
+  footmark = "layout/icon_uzh_mz.png" # "layout/feynmanfooter.png"
+  stacklogo = "" # "logo/uzh_logo_white.png"
+  legalblurb = "" # "All opinions expressed here are my own and do not necessarily represent those of any other agencies or groups."
 
   # HEADER PARAMETERS
-  watermark = "background/Bundle3.jpg"
-
+  watermark = "background/fancy_code.png"
 
   # Social/Academic Networking
   #
@@ -104,60 +120,38 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-[[params.social]]
-    icon = "inspire"
-    icon_pack = "ai"
-    link = "http://inspirehep.net/author/profile/P.Tanedo.1"
-    cv = true
+  # Email is added using cryptedmail_blind
+  #[[params.social]]
+  #  icon = "envelope"
+  #  icon_pack = "fa"
+  #  link = "mailto:christian.zuend@me.com"
+  #  cv = true
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.com/citations?hl=en&user=BQuJtTIAAAAJ&view_op=list_works&sortby=pubdate"
+    link = "https://scholar.google.com/citations?view_op=list_works&hl=en&user=rB3BXV8AAAAJ"
     cv = true
 
   [[params.social]]
     icon = "orcid"
     icon_pack = "ai"
-    link = "http://orcid.org/0000-0003-4642-2199"
+    link = "https://orcid.org/0000-0002-4436-4071"
     cv = true
 
   [[params.social]]
     icon = "github"
-    icon_pack = "fa"
-    link = "//github.com/fliptanedo"
+    icon_pack = "fab"
+    link = "https://github.com/clzuend"
     cv = true
 
   [[params.social]]
-    icon = "arxiv"
-    icon_pack = "ai"
-    link = "https://arxiv.org/find/hep-ph/1/au:+Tanedo_P/0/1/0/all/0/1"
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "www.linkedin.com/in/christian-zuend"
     cv = true
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/FlipTanedo"
-    cv = false
-
-  [[params.social]]
-    icon = "publons"
-    icon_pack = "ai"
-    link = "https://publons.com/author/637273/philip-tanedo#profile"
-    cv = true
-
-  [[params.social]]
-    icon = "slideshare"
-    icon_pack = "fa"
-    link = "https://www.slideshare.net/fliptanedo"
-    cv = false
-
-  [[params.social]]
-    icon = "tree"
-    icon_pack = "fa"
-    link = "https://academictree.org/physics/tree.php?pid=715850"
-    cv = false
-
+# maybe add Arxiv and twitter back, maybe add linkedin ...
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -179,13 +173,13 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Research"
-  url = "#research"
+  url = "#projects"
   weight = 3
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 6
+  name = "Publications"
+  url = "#featured"
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
@@ -197,8 +191,22 @@ enableGitInfo = false
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
+  
+# Comments.
+[params.comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 0
 
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
 
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
 
 # Configure the English version of the website.
 [Languages.en]
