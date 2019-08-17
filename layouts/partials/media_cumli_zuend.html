@@ -1,0 +1,10 @@
+{{ $is_list := .is_list }}
+{{ $ := .content }}
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  {{ range .content }}
+  <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ .url | absURL }}" target="_blank" rel="noopener">
+    {{ .name }}
+  </a>
+  {{ end }}  
+</div>
