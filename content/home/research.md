@@ -3,51 +3,46 @@
 # An example of using the custom widget to create your own homepage section.
 # To create more sections, duplicate this file and edit the values below as desired.
 widget = "research"
-active = true
+active = false
 date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Research"
+title = ""
 subtitle = ""
 
 # Order that this section will appear in.
 weight = 3
 
-researchblurb = "What is **dark matter**? How does it fit into our understanding of particle physics? How do we search for it?"
+researchblurb = "**Some examples of my research and other projects:**"
 
 
 # Research Projects to Cycle
 [[research.projects]]
-  project = "composite mediator"
-  image = "research/compo.png"
-  caption = "Composite Higgs, Composite Mediator, *work in progress*"
+  project = "bf_jmp"
+  image = "research/bf_jmp.png"
+  caption = "It’s Not All About the Money: The effects of corruption where no money is stolen, [*Job Market Paper*](link_to_jmp)"
 
 [[research.projects]]
-  project = "ipc"
-  image = "research/ipc.png"
-  caption = "Beryllium-8 anomaly: [1604.07411](https://arxiv.org/abs/1604.07411), [1608.03591](https://arxiv.org/abs/1608.03591)"
+  project = "honesty"
+  image = "research/honesty.jpg"
+  caption = "Civic Honesty Around the Globe, [Science (2019)](https://science.sciencemag.org/content/365/6448/70), with Alain Cohn, Michel Maréchal, and David Tannenbaum"
 
 [[research.projects]]
-  project = "gce"
-  image = "research/fermi.png"
-  caption = "Fermi GeV Excess: [1503.05919](https://arxiv.org/abs/1503.05919), [1612.05687](https://arxiv.org/abs/1612.05687), [1503.05919](https://arxiv.org/abs/1503.05919)"
+  project = "risk_gwas"
+  image = "research/risk_gwas.jpg"
+  caption = "Genome-wide association analyses of risk tolerance and risky behaviors in over 1 million individuals identify hundreds of loci and shared genetic influences, [Nature Genetics (2019)](https://www.nature.com/articles/s41588-018-0309-3), with the [SSGAC](https://www.thessgac.org)"
 
 [[research.projects]]
-  project = "icecube"
-  image = "research/ice.png"
-  caption = "Dark photons from the center of the Earth: [1509.07525](https://arxiv.org/abs/1509.07525)"
+  project = "pubs"
+  image = "research/pubs.jpg"
+  caption = "Genes, Pubs, and Drinks (with Pietro Biroli), **Work in progress**"
 
 [[research.projects]]
-  project = "neutron"
-  image = "research/neutron.png"
-  caption = "Direct detection with neutron stars: [1707.0944](https://arxiv.org/abs/1707.09442)"
-
-[[research.projects]]
-  project = "lfv"
-  image = "research/lfv.png"
-  caption = "Lepton-flavor violating mediators: [1610.08060](https://arxiv.org/abs/1610.08060)"
+  project = "br_educ"
+  image = "research/br_educ.jpg"
+  caption = "Local Corruption And Educational Achievement, [Working Paper](link_to_wp)"
 
 
 +++
 
-For more details, please refer to my [papers on inSpire](http://inspirehep.net/author/profile/P.Tanedo.1).
+<!-- For more details, please refer to my papers on ... . -->
