@@ -36,3 +36,43 @@ styles for slick carousel
 .slider img{
   margin: 30px auto;
 }
+
+.slider:hover img {
+  opacity:0.4;
+  display: block;
+}
+
+.slider text {
+  opacity:0;
+  display: block;
+}
+.slider:hover text {
+  opacity:1;
+  display: block;
+}
+
+.slider-slide {
+  position:relative;
+}
+.slider-text{
+  opacity: 0;
+  position:absolute; 
+  bottom:0; 
+  padding:50px 20px; 
+  width:100%; 
+  text-align:center;
+}
+
+.slider-slide:hover .slider-text {
+  opacity: 100;
+  position:absolute; 
+  bottom:0; 
+  padding:50px 20px; 
+  width:100%; 
+  text-align:center;
+}
+
+.coauthors {
+  font-style: italic;
+  font-size: 75%;
+}
