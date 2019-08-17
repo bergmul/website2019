@@ -73,11 +73,20 @@
 
     <div id="flip-moved-social-icons">
     <ul class="social-icon" aria-hidden="true">
+      <li>
+        <a itemprop="sameAs" target="_blank" data-name="{{ $.Site.Params.email1 }}" data-domain="{{ $.Site.Params.email2 }}" data-tld="{{ $.Site.Params.email3 }}" href="#" class="cryptedmail_blind" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld">
+            <i class="fa fa-envelope big-icon"></i>
+        </a>
+      </li>
       {{ range $.Site.Params.social }}
-      {{ $pack := or .icon_pack "fa" }}
+      {{ $pack := or .icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
       <li>
         <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank">
-          <i class="{{ $pack }} {{ $pack }}-{{ .icon }} big-icon"></i>
+          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
         </a>
       </li>
       {{ end }}
