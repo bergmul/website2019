@@ -6,7 +6,7 @@ date = 2019-08-16T00:00:00
 title = "It's Not All About the Money: The Effects of Corruption Where No Money Is Stolen"
 
 # Project summary to display on homepage.
-summary = "**--Job Market Paper--**<br/>Using a novel identification strategy based on Bolsa Família's beneficiary selection algorithm, I estimate its causal effect on school enrollment in different years and municipalities. I then show that its effectiveness increases by a third after a municipality has been audited at random. Using a theoretical model, administrative data, and a field experiment, I find that local corruption increases the probability that families underreport their income when registering for Bolsa Família, making it harder to target the families that benefit most."
+summary = "**--Job Market Paper--**<br/>Using a novel identification strategy and large administrative data, I show that the causal effect of Brasil's Bolsa Família on school enrollment is significantly smaller in municipalities where corruption is rampant. Local corruption increases income underreporting during the registration phase of the program, making it harder to target the families that benefit most, consistent with the evidence of a theoretical model and a field experiment."
 coauthors = ""
 
 # Optional image to display on homepage (relative to `static/img/` folder).
