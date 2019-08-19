@@ -49,12 +49,12 @@
     padding: 0;
     position: absolute;
     top: 80px;
-    left: 0px;
+    left: 20px;
     pointer-events: none;
     height: 100%;
     width: 100%;
     text-align: right;
-    opacity: 0.15;
+    opacity: 0.10;
 }
 
 
