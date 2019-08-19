@@ -133,7 +133,7 @@
               {{ $items := $items | union (where (where .Site.RegularPages "Type" "publication") ".Params.url_project" $proj_path) }}
               {{ $pubs_len := len $items }}
               {{ if ge $pubs_len 1 }}
-                <div>{{ (i18n "publications") }}:</div>
+                <!-- <div>{{ (i18n "publications") }}:</div> -->
                 {{ range $items }}
                     {{ partial "publication_li_noauthor" . }}
                     {{ if .Params.url_media }}
@@ -148,7 +148,7 @@
               {{ end }}
               {{ if ($mediaScratch.Get "media") }}
                 {{ $media := index ($mediaScratch.Get "media") 0 }}
-                  <div>{{ (i18n "media") }}:</div>
+                  <!-- <div>{{ (i18n "media") }}:</div> -->
                   {{ partial "media_cumli_zuend" (dict "content" $media "is_list" 1) }}
               {{ end }}
           </div>
