@@ -29,7 +29,7 @@ researchblurb = "**Some examples of my research and other projects:**"
 
 [[research.projects]]
   project = "risk_gwas"
-  image = "research/risk_gwas.jpg"
+  image = "research/risk_gwas.png"
   caption = "Genome-wide association analyses of risk tolerance and risky behaviors in over 1 million individuals identify hundreds of loci and shared genetic influences, [Nature Genetics (2019)](https://www.nature.com/articles/s41588-018-0309-3), with the [SSGAC](https://www.thessgac.org)"
 
 [[research.projects]]
