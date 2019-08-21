@@ -10,7 +10,7 @@ summary = "Genome-wide association study of risk tolerance in over 1 million ind
 coauthors = "with the [Social Science Genetic Association Consortium](https://www.thessgac.org)"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "risk_gwas.jpg"
+image_preview = "risk_gwas.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
