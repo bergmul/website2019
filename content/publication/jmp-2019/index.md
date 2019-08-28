@@ -1,5 +1,5 @@
 +++
-title = "It's Not All About the Money: The Effects of Corruption Where No Money Is Stolen"
+title = "It's Not All About the Money: How Corruption Undermines Policy Effectiveness"
 date = 2019-08-01
 publishDate = 2019-08-16T08:08:51.082799Z
 authors = ["Christian Lukas Zünd"]

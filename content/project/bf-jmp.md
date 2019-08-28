@@ -3,14 +3,14 @@
 date = 2019-08-16T00:00:00
 
 # Project title.    
-title = "It's Not All About the Money: The Effects of Corruption Where No Money Is Stolen"
+title = "It's Not All About the Money: How Corruption Undermines Policy Effectiveness"
 
 # Project summary to display on homepage.
 summary = "**--Job Market Paper--**<br/>Using a novel identification strategy and large administrative data, I show that the causal effect of Brasil's Bolsa Família on school enrollment is significantly smaller in municipalities where corruption is rampant. Local corruption increases income underreporting during the registration phase of the program, making it harder to target the families that benefit most, consistent with the evidence of a theoretical model and a field experiment."
 coauthors = ""
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bf_jmp.png"
+image_preview = "bf_jmp.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
