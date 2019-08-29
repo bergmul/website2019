@@ -38,7 +38,7 @@ styles for slick carousel
 }
 
 .slider:hover img {
-  opacity:0.3;
+  opacity:0.2;
   display: block;
 }
 
