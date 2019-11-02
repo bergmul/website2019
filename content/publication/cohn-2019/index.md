@@ -89,5 +89,8 @@ projects = ["honesty"]
 [[url_media]]
     name = "El Mundo"
     url = "https://www.elmundo.es/ciencia-y-salud/ciencia/2019/06/20/5d0b803bfc6c8394188b46ec.html"
+[[url_media]]
+    name = "RSI"
+    url = "https://www.rsi.ch/la1/programmi/informazione/patti-chiari/Inchieste/inchieste-andate-in-onda/Onestà-smarrita-E-tu-cosa-faresti-12358950.html"
 +++
 
