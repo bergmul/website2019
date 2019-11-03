@@ -10,9 +10,10 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Honesty, Corruption",
+    "Applied Microeconomics",
     "Field Experiments",
     "Behavioral Genetics",
+    "Machine learning",
     "Data, Data, Data!"
   ]
 
