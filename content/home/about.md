@@ -50,3 +50,5 @@ weight = 1
 **Christian Zünd wants to know why we behave the way we do.**
 
 I'm a PhD candidate in Economics at the University of Zurich. [My research](#projects) combines field and online experiments with data from large administrative databases and genetic repositories. My work has been [published](#featured) in Science and Nature Genetics and has recently received quite a bit of [media attention](/publication/cohn-2019).
+
+I'm on the academic job market this year and I will be available for interviews in Rotterdam and San Diego. [Click here for the newest version of my job market paper.](./files/JMP.pdf)
