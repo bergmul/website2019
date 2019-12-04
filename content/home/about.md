@@ -51,4 +51,4 @@ weight = 1
 
 I'm a PhD candidate in Economics at the University of Zurich. [My research](#projects) combines field and online experiments with data from large administrative databases and genetic repositories. My work has been [published](#featured) in Science and Nature Genetics and has recently received quite a bit of [media attention](/publication/cohn-2019).
 
-**I will be joining the University of Oxford as a Research Fellow at the Saïd Business School in 2020.**
+#**I will be joining the University of Oxford as a Research Fellow at the Saïd Business School in 2020.**
