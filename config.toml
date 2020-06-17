@@ -148,7 +148,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fab"
-    link = "www.linkedin.com/in/christian-zuend"
+    link = "https://linkedin.com/in/christian-zuend"
     cv = true
 
 # maybe add Arxiv and twitter back, maybe add linkedin ...
